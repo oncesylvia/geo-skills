@@ -6,7 +6,7 @@
   },
   "metadata": {
     "description": "Honest GEO toolkit — make your site reachable and quotable by AI assistants and AI search, the right way.",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   "plugins": [
     {
