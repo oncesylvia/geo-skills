@@ -1,0 +1,18 @@
+{
+  "name": "geo-skills",
+  "owner": {
+    "name": "oncesylvia",
+    "email": "vixvi1004@gmail.com"
+  },
+  "metadata": {
+    "description": "Honest GEO toolkit — make your site reachable and quotable by AI assistants and AI search, the right way.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "geo-skills",
+      "source": "./",
+      "description": "Audit and fix your site so ChatGPT, Perplexity, Claude, Gemini and AI search can crawl, parse, and cite it — crawler access, llms.txt, and answer-ready content."
+    }
+  ]
+}
