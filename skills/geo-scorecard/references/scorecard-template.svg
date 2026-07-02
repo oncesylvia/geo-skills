@@ -1,0 +1,41 @@
+<!-- GEO scorecard template. Replace {{PLACEHOLDERS}} and the bar widths, then
+     rasterize to PNG (1200x630). Bar width = score / 100 * 492 (px).
+     Colors: green #2BB789 (>=75), amber #E0A33E (60-74), red #E24B4A (<60).
+     Overall accent + big number color: pick by grade (green/amber/red). -->
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img">
+<rect x="0" y="0" width="1200" height="630" fill="#0F1115"/>
+<rect x="0" y="0" width="1200" height="8" fill="{{ACCENT}}"/>
+<text x="64" y="90" fill="{{ACCENT}}" font-family="sans-serif" font-size="23" font-weight="500">{{BRAND}} · GEO scorecard</text>
+<text x="1136" y="90" fill="#99A2AE" font-family="sans-serif" font-size="19" text-anchor="end">real data · estimates labeled</text>
+
+<text x="64" y="270" fill="#F4F6F8" font-family="sans-serif" font-size="150" font-weight="500">{{OVERALL}}</text>
+<text x="270" y="270" fill="#99A2AE" font-family="sans-serif" font-size="46">/ 100</text>
+<text x="66" y="320" fill="{{ACCENT}}" font-family="sans-serif" font-size="30" font-weight="500">{{GRADE}}</text>
+<text x="66" y="392" fill="#99A2AE" font-family="sans-serif" font-size="21">{{VERDICT_LINE}}</text>
+
+<line x1="588" y1="150" x2="588" y2="500" stroke="#2A313B" stroke-width="1"/>
+
+<text x="628" y="197" fill="#F4F6F8" font-family="sans-serif" font-size="22">AI visibility</text>
+<text x="1120" y="197" fill="#99A2AE" font-family="sans-serif" font-size="20" text-anchor="end">{{V_SCORE}} / 100</text>
+<rect x="628" y="210" width="492" height="12" rx="6" fill="#232A28"/>
+<rect x="628" y="210" width="{{V_BAR}}" height="12" rx="6" fill="{{V_COLOR}}"/>
+
+<text x="628" y="277" fill="#F4F6F8" font-family="sans-serif" font-size="22">Infrastructure</text>
+<text x="1120" y="277" fill="#99A2AE" font-family="sans-serif" font-size="20" text-anchor="end">{{I_SCORE}} / 100</text>
+<rect x="628" y="290" width="492" height="12" rx="6" fill="#232A28"/>
+<rect x="628" y="290" width="{{I_BAR}}" height="12" rx="6" fill="{{I_COLOR}}"/>
+
+<text x="628" y="357" fill="#F4F6F8" font-family="sans-serif" font-size="22">Competitive</text>
+<text x="1120" y="357" fill="#99A2AE" font-family="sans-serif" font-size="20" text-anchor="end">{{C_SCORE}} / 100</text>
+<rect x="628" y="370" width="492" height="12" rx="6" fill="#232A28"/>
+<rect x="628" y="370" width="{{C_BAR}}" height="12" rx="6" fill="{{C_COLOR}}"/>
+
+<text x="628" y="437" fill="#F4F6F8" font-family="sans-serif" font-size="22">Reputation</text>
+<text x="1120" y="437" fill="#99A2AE" font-family="sans-serif" font-size="20" text-anchor="end">{{R_SCORE}} / 100</text>
+<rect x="628" y="450" width="492" height="12" rx="6" fill="#232A28"/>
+<rect x="628" y="450" width="{{R_BAR}}" height="12" rx="6" fill="{{R_COLOR}}"/>
+
+<line x1="64" y1="536" x2="1136" y2="536" stroke="#2A313B" stroke-width="1"/>
+<text x="64" y="580" fill="{{ACCENT}}" font-family="monospace" font-size="22">4 dims · equal weight</text>
+<text x="1136" y="580" fill="#99A2AE" font-family="sans-serif" font-size="20" text-anchor="end">{{NEXT_STEP}}</text>
+</svg>

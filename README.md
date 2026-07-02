@@ -38,7 +38,7 @@ buyers to find you · you're going global or local — and you want it done hone
 **Maybe skip it if 👇:** you only care about classic Google ranking, not AI
 answers · you want to trick AI into recommending you (this toolkit refuses that).
 
-## Skills (20, grouped by job)
+## Skills (21, grouped by job)
 
 **🧑‍💼 No dev team / small business / 出海 — start here**
 | Skill | Use it when… |
@@ -71,6 +71,7 @@ answers · you want to trick AI into recommending you (this toolkit refuses that
 | **[prompt-coverage](skills/prompt-coverage/SKILL.md)** | Map the buyer prompt space + share-of-voice vs competitors |
 | **[geo-measure](skills/geo-measure/SKILL.md)** | Track citations, AI referral traffic, bot crawls — trend, not a rank |
 | **[citation-gap](skills/citation-gap/SKILL.md)** | Reverse-engineer why a rival gets cited + catch-up plan |
+| **[geo-scorecard](skills/geo-scorecard/SKILL.md)** | Turn the audit into a 0-100 GEO score (4 dimensions) + a shareable scorecard image — real data, estimates labeled |
 | **[convert-ai-traffic](skills/convert-ai-traffic/SKILL.md)** | AI sends visits but no conversions → match the answer, capture, attribute |
 
 **🌏 Local & international** · **🟠 Frontier**
