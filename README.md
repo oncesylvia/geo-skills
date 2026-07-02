@@ -121,6 +121,7 @@ you're a startup with engineers or a small owner / 外贸 boss with none.
 
 ## Related projects
 
+- [**cocodot**](https://cocodot.co) — the AI API relay I run, and the live case study behind these skills (llms.txt, AI-crawler access, structured data — all applied there).
 - [**fundraising-skills**](https://github.com/oncesylvia/fundraising-skills) — Claude Code skills for founder-led fundraising.
 - [**LLMprobe**](https://github.com/oncesylvia/LLMprobe) — CLI to catch LLM API model-downgrading (降智) and benchmark providers.
 
