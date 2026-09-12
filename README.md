@@ -125,6 +125,14 @@ you're a startup with engineers or a small owner / 外贸 boss with none.
 - [**fundraising-skills**](https://github.com/oncesylvia/fundraising-skills) — Claude Code skills for founder-led fundraising.
 - [**LLMprobe**](https://github.com/oncesylvia/LLMprobe) — CLI to catch LLM API model-downgrading (降智) and benchmark providers.
 
+## Working with me
+
+These skills are the method, and they're free — MIT, fork them, run them yourself.
+
+If you'd rather have it done for you, I also run a **fixed-price GEO audit**: scoped
+up front, delivered as a written report you can hand to whoever does the work.
+Open an issue here and I'll follow up.
+
 ## License
 
 MIT. Use it, fork it, improve it.
